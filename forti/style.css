@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff; }
+
+header {
+  height: 80vh;
+  background-image: linear-gradient(to bottom, rgba(242, 193, 189, 0.52), rgba(242, 193, 189, 0.52)), url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px 20px; }
+  header h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 20px; }
+  header hr {
+    margin-left: 100px;
+    width: 70%;
+    border: 2px solid #ffffff; }
+  header hgroup {
+    padding-left: 100px;
+    padding-top: 40px;
+    display: flex;
+    text-transform: uppercase; }
+  header h5 {
+    font-weight: 500;
+    line-height: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    letter-spacing: 2px; }
+  header button {
+    font-size: 16px;
+    border: 3px solid white;
+    color: #ffffff;
+    padding: 15px 40px;
+    background: none; }
+    header button:hover {
+      color: #b4d9ce;
+      border-color: #b4d9ce;
+      transition: 0.3s ease;
+      cursor: pointer; }
+
+.row {
+  color: #ffffff;
+  height: 60vh; }
+  .row h3 {
+    padding: 200px 120px 0 60px; }
+  .row hr {
+    margin-left: 60px;
+    width: 150px;
+    border: 2px solid #ffffff; }
+  .row h6 {
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 60px;
+    letter-spacing: 2px; }
+  .row .col-md-4 {
+    background-image: linear-gradient(to bottom, rgba(27, 42, 89, 0.52), rgba(27, 42, 89, 0.52)), url("img/pexels-agafonova-photo-5604519.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-4:hover {
+      background-image: url(img/pexels-agafonova-photo-5604519.jpg);
+      transition: 0.3s ease;
+      cursor: pointer; }
+  .row .col-md-8 {
+    background-image: linear-gradient(to bottom, rgba(135, 166, 88, 0.52), rgba(135, 166, 88, 0.52)), url("img/pexels-sinitta-leunen-5604039.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-8:hover {
+      background-image: url(img/pexels-sinitta-leunen-5604039.jpg);
+      transition: 0.3s ease;
+      cursor: pointer; }
+  .row .col-md-9 {
+    background-image: linear-gradient(to bottom, rgba(242, 193, 189, 0.52), rgba(189, 193, 198, 0.52)), url("img/pexels-sinitta-leunen-5604039.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-9:hover {
+      background-image: url(img/pexels-sinitta-leunen-5604039.jpg);
+      transition: 0.3s ease;
+      cursor: pointer; }
+  .row .col-md-3 {
+    background-image: linear-gradient(to bottom, rgba(166, 17, 3, 0.42), rgba(166, 17, 3, 0.42)), url("img/pexels-maria-orlova-4906334.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-3:hover {
+      background-image: url("img/pexels-maria-orlova-4906334.jpg");
+      transition: 0.3s ease;
+      cursor: pointer; }
+  .row .col-md-7 {
+    background-image: linear-gradient(to bottom, rgba(180, 217, 206, 0.52), rgba(180, 217, 206, 0.52)), url("img/pexels-rachel-claire-5865155.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-7:hover {
+      background-image: url(img/pexels-rachel-claire-5865155.jpg);
+      transition: 0.3s ease;
+      cursor: pointer; }
+  .row .col-md-5 {
+    background-image: linear-gradient(to bottom, rgba(168, 97, 250, 0.52), rgba(168, 97, 250, 0.52)), url("img/pexels-simon-migaj-949193.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: local; }
+    .row .col-md-5:hover {
+      background-image: url(img/pexels-simon-migaj-949193.jpg);
+      transition: 0.3s ease;
+      cursor: pointer; }
+
+.quote {
+  height: 60vh;
+  background-color: #ff9b93;
+  color: #ffffff; }
+  .quote h3 {
+    padding: 200px 120px 0 60px;
+    padding-top: 50px;
+    padding-left: 60px; }
+  .quote hr {
+    margin-left: 60px;
+    width: 150px;
+    border: 2px solid #ffffff;
+    margin-top: 20px; }
+  .quote p {
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 60px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding-top: 10px; }
+  .quote button {
+    font-size: 16px;
+    border: 3px solid white;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-left: 55px;
+    background: none; }
+    .quote button:hover {
+      color: #b4d9ce;
+      border-color: #b4d9ce;
+      transition: 0.3s ease;
+      cursor: pointer; }
+
+.contact {
+  background-color: #87a658; }
+  .contact h3 {
+    padding: 200px 120px 0 60px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 45px; }
+  .contact hr {
+    margin-left: 60px;
+    width: 150px;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+    margin-left: 45px; }
+  .contact label {
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 60px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0px 0px 0 30px; }
+  .contact input, .contact select, .contact textarea {
+    width: 95%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin: 6px 26px 20px 26px;
+    resize: vertical; }
+  .contact button {
+    font-size: 16px;
+    border: 3px solid white;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    background: none; }
+    .contact button:hover {
+      color: #b4d9ce;
+      border-color: #b4d9ce;
+      transition: 0.3s ease;
+      cursor: pointer; }
+
+footer {
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 60px;
+  letter-spacing: 2px;
+  background-color: #b4d9ce;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  color: #1b2a59; }
+  footer span {
+    color: #a61103; }
+
+/*# sourceMappingURL=style.css.map */
